@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Link opener</title>
+    <style>
+        #links{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <button>Open all</button>
+    <div id="links">
+        <p>Included sites:</p>
+    </div>
+    <script>
+        
+        window.addEventListener("load", ()=>{
+            fetch("links.json")
+                .then(r=>r.json())
+                .then(i=>{
+                    let output = ``;
+                    i.forEach(element => {
+                        output += `<a target="_blank" rel="noopener noreferrer" href="${element.url}">${element.siteName}</a>`
+                    });
+                    document.getElementById("links").innerHTML = output;
+                })
+                .then(()=>{
+                    const button = document.querySelector("button");
+                    button.addEventListener("click", () => {
+                        const test = document.querySelectorAll("a");
+                        test.forEach(element => {
+                        element.click();
+                        });
+                     });
+                })
+        });
+
+
+
+
+
+        
+    
+    </script>
+</body>
+</html>

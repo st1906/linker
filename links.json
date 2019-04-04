@@ -1,0 +1,26 @@
+[
+    {
+        "siteName" : "TENAA",
+        "url" : "http://www.tenaa.com.cn/WSFW/ListDetail.aspx?code=hBm5%2fKM7oMN5PmOnckPiC%2btllJ6KFjgALl3%2b3KF%2fiMcUryFxtiZ3de%2bGkUQwOX%2b0"
+    },
+    {
+        "siteName" : "Bluetooth",
+        "url" : "https://launchstudio.bluetooth.com/Listings/Search"
+    },
+    {
+        "siteName" : "CCC",
+        "url" : "http://webdata.cqccms.com.cn/webdata/query/CCCCerti.do"
+    },
+    {
+        "siteName" : "AOSMARK",
+        "url" : "https://www.aosmark.com/"
+    },
+    {
+        "siteName" : "WPC",
+        "url": "https://www.wirelesspowerconsortium.com/products?basic_search=Nokia&product_id=&version=&brand_name=&product_name=&type_number=&product_type=&not_licensed=No&power_profile=&transmitter_design=&automotive_assembly=&subsystem=&compliant_automotive=&mobile_phone_accessory=&mobile_phone_accessory_description=&sort=&direction=asc&searching=true&search_type=basic"
+    },
+    {
+        "siteName" : "Official Weibo",
+        "url" : "https://m.weibo.cn/u/1660811367?uid=1660811367&luicode=10000011&lfid=231522type%3D103%26q%3D%230516%E6%88%91%E4%BB%AC%E5%86%8D%E7%AE%B1%E8%A7%81%23"
+    }
+]
