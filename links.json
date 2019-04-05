@@ -8,10 +8,6 @@
         "url" : "https://launchstudio.bluetooth.com/Listings/Search"
     },
     {
-        "siteName" : "CCC",
-        "url" : "http://webdata.cqccms.com.cn/webdata/query/CCCCerti.do"
-    },
-    {
         "siteName" : "AOSMARK",
         "url" : "https://www.aosmark.com/"
     },
@@ -22,5 +18,33 @@
     {
         "siteName" : "Official Weibo",
         "url" : "https://m.weibo.cn/u/1660811367?uid=1660811367&luicode=10000011&lfid=231522type%3D103%26q%3D%230516%E6%88%91%E4%BB%AC%E5%86%8D%E7%AE%B1%E8%A7%81%23"
+    },
+    {
+        "siteName" : "Official Phones Updates",
+        "url" : "https://www.nokia.com/phones/en_int/security-updates"
+    },
+    {
+        "siteName" : "Official Kernel",
+        "url" : "https://www.nokia.com/phones/en_int/opensource"
+    },
+    {
+        "siteName" :"FCC",
+        "url" : "https://fccid.io/2AJOT"
+    },
+    {
+        "siteName" :"Wifi-Org",
+        "url":"https://www.wi-fi.org/product-finder-results?sort_by=default&sort_order=desc&categories=4&keywords=HMD%20Global"
+    },
+    {
+        "siteName" : "Nokibar",
+        "url" : "http://tieba.baidu.com/f?kw=%E8%AF%BA%E8%AE%B0&ie=utf-8"
+    },
+    {
+        "siteName" : "EUIPO",
+        "url" : "https://euipo.europa.eu/eSearch/#details/owners/795642"
+    },
+    {
+        "siteName" : "Finalnd tax authority",
+        "url": "https://www.asiakastieto.fi/yritykset/fi/hmd-global-oy/27240442/yleiskuva"
     }
 ]

@@ -6,16 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Link opener</title>
     <style>
+        body{
+            width: fit-content;
+            margin: 16px auto auto;
+            text-align: center;
+            background: black;
+        }
         #links{
             display: flex;
             flex-direction: column;
+            width: fit-content;
+            background: #124191;
+            padding: 8px;
+            border-radius: 16px;
         }
+        a{
+            text-decoration: none;
+            color: white;
+            background: #124191;
+            text-align: center;
+            padding: 4px 8px;
+            border-bottom: white 1px dotted;
+            margin: 2px 0px;
+            transition: all ease-in 0.2s;
+        }
+       
+        button{
+            color: #124191;
+            background: white;
+            border: 1px solid #124191;
+            padding: 8px 16px;
+            font-weight: 800;
+            transition: all 0.2s;
+        }
+       
+        @media(min-width: 768px){
+              a:hover{
+            color: #124191;
+            background: white;
+            border-bottom: black;
+            transform: scale(1.1);
+        }
+             
+            button:hover{
+            color: white;
+            background: #124191;
+            transform: scale(1.2);
+            cursor: pointer;
+        }}
     </style>
 </head>
 <body>
     <button>Open all</button>
+    <p style = "color: white">Included sites:</p>
     <div id="links">
-        <p>Included sites:</p>
     </div>
     <script>
         
