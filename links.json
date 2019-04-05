@@ -46,5 +46,13 @@
     {
         "siteName" : "Finalnd tax authority",
         "url": "https://www.asiakastieto.fi/yritykset/fi/hmd-global-oy/27240442/yleiskuva"
+    },
+    {
+        "siteName" : "EEC",
+        "url": "https://fccid.io/EEC/"
+    },
+    {
+        "siteName" : "Shouji TENAA",
+        "url": "http://shouji.tenaa.com.cn/"
     }
 ]
