@@ -8,7 +8,7 @@
     <style>
         body{
             width: fit-content;
-            margin: 16px auto auto;
+            margin: 4px auto auto;
             text-align: center;
             background: black;
         }
@@ -58,18 +58,10 @@
 </head>
 <body>
     <button>Open all</button>
-    <p style = "color: white">Included sites:</p>
+    <p style = "color: white;
+                margin: 8px 0;">Included sites:</p>
     <div id="links">
     </div>
-    <footer>
-        <img style="height: 33px; 
-                    width: 33px; 
-                    margin: 8px auto;
-                    border-radius: 40%;
-                    opacity: 0.7;
-                    ;" 
-                    src="./logo.jpg" alt="logo" srcset="">
-    </footer>
     <script>
         
         window.addEventListener("load", ()=>{
@@ -91,14 +83,16 @@
                         });
                      });
                 })
-        });
-
-
-
-
-
-        
-    
+        });    
     </script>
+    <footer>
+        <img style="height: 33px; 
+                    width: 33px; 
+                    margin: 8px auto;
+                    border-radius: 40%;
+                    opacity: 0.7;
+                    ;" 
+                    src="./logo.jpg" alt="logo" srcset="">
+    </footer>
 </body>
 </html>
