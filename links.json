@@ -58,5 +58,13 @@
     {
         "siteName" : "Geekbench",
         "url" : "https://browser.geekbench.com"
+    },
+    {
+        "siteName" : "r/Nokia",
+        "url" : "https://www.reddit.com/r/Nokia"
+    },
+    {
+        "siteName" : "r/Android",
+        "url" : "https://www.reddit.com/r/Android"
     }
 ]
