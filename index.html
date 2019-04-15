@@ -41,29 +41,28 @@
         }
        
         @media(min-width: 768px){
-              a:hover{
-            color: #124191;
-            background: white;
-            border-bottom: black;
-            transform: scale(1.1);
+            a:hover{
+                color: #124191;
+                background: white;
+                border-bottom: black;
+                transform: scale(1.1);
         }
              
             button:hover{
-            color: white;
-            background: #124191;
-            transform: scale(1.2);
-            cursor: pointer;
+                color: white;
+                background: #124191;
+                transform: scale(1.2);
+                cursor: pointer;
         }}
     </style>
 </head>
 <body>
     <button>Open all</button>
     <p style = "color: white;
-                margin: 8px 0;">Included sites:</p>
+                margin: 8px 0px;">Included sites:</p>
     <div id="links">
     </div>
-    <script>
-        
+    <script>    
         window.addEventListener("load", ()=>{
             fetch("links.json")
                 .then(r=>r.json())
@@ -90,9 +89,8 @@
                     width: 33px; 
                     margin: 8px auto;
                     border-radius: 40%;
-                    opacity: 0.7;
-                    ;" 
-                    src="./logo.jpg" alt="logo" srcset="">
+                    opacity: 0.7;" 
+                    src="./logo.jpg" alt="logo">
     </footer>
 </body>
 </html>
