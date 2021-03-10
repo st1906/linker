@@ -40,6 +40,10 @@
         "url" : "http://tieba.baidu.com/f?kw=%E8%AF%BA%E8%AE%B0&ie=utf-8"
     },
     {
+        "siteName": "MoCheck NBTC",
+        "url": "http://mocheck.nbtc.go.th/search?keyword=&tradeID=935&modelTypeID=&manufacturerID=1266&status=&pageLimit="
+    },
+    {
         "siteName" : "EUIPO",
         "url" : "https://euipo.europa.eu/eSearch/#details/owners/795642"
     },
@@ -50,6 +54,10 @@
     {
         "siteName" : "EEC",
         "url": "https://fccid.io/EEC/"
+    },
+    {
+        "siteName" : "Econ Sirim",
+        "url": "https://ecomm.sirim.my/SirimEnquiry/search_model.aspx"
     },
     {
         "siteName" : "Shouji TENAA",
